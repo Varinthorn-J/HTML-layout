@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <title>Welcome</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #000000;
+        }
+        
+        main {
+            margin: 5% auto;
+            width: 90%;
+            border: 2px solid gray;
+            display: grid;
+            grid-template-rows: 150px 100px 150px 600px 100px;
+            grid-template-columns: repeat(3, 1fr)200px;
+            grid-gap: 10px;
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            line-height: 3;
+        }
+        
+        .div1 {
+            background-color: yellow;
+            grid-column: 1/-1;
+        }
+        
+        .div2 {
+            background-color: tomato;
+            grid-column: 1/-1;
+        }
+        
+        .div3 {
+            background-color: #aaf355;
+            grid-row: 3/5;
+        }
+        
+        .div4 {
+            background-color: lightgreen;
+        }
+        
+        .div5 {
+            background-color: lightblue;
+        }
+        
+        .div6 {
+            background-color: skyblue;
+        }
+        
+        .div7 {
+            background-color: gray;
+            grid-column: 2/5;
+            color: white;
+        }
+        
+        .div8 {
+            background-color: green;
+            grid-column: 1/-1;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="div1">welcome</div>
+        <div class="div2">Navbar</div>
+        <div class="div3">Left Content</div>
+        <div class="div4">First</div>
+        <div class="div5">Second</div>
+        <div class="div6">Third</div>
+        <div class="div7">Main content
+            <br> Like Share Ans Subscribe my chanel.
+        </div>
+        <div class="div8">Footer</div>
+    </main>
+</body>
+
+</html>
